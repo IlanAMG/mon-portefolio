@@ -110,24 +110,24 @@ const Home = () => {
             setStyleWallUp({
                 animationDuration: '0.5s',
                 animationName: 'closeUp',
-                bottom: '90%'
+                top: '0%'
             })
             setStyleWallDown({
                 animationDuration: '0.6s',
                 animationName: 'closeDown',
-                bottom: '91%'
+                bottom: '0%'
             })
 
             window.setTimeout(() => {
                 setStyleWallUp({
                     animationDuration: '0.5s',
                     animationName: 'openUp',
-                    bottom: '140%'
+                    top: '-50%'
                 })
                 setStyleWallDown({
                     animationDuration: '0.6s',
                     animationName: 'openDown',
-                    bottom: '40%'
+                    bottom: '-50%'
                 })
             }, 900)
 
