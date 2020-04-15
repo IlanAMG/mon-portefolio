@@ -186,7 +186,9 @@ button {
     animation-timing-function: cubic-bezier(0.120, 0.450, 0.000, 0.710);
 }
 
-
+.home img {
+    transition: opacity 300ms;
+}
 
 .filter {
     width: 100%;

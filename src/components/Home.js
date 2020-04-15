@@ -7,6 +7,7 @@ import Context from '../untils/context';
 
 const Home = () => {
     const { styleHOME, setTransitionFinish, setStyleWallDown, setStyleWallUp, isVisible } = useContext(Context)
+    const [isLoad, setIsLoad] = useState(false)
     const [phrase1T, setPhrase1T] = useState('')
     const [nomT, setNomT] = useState('')
     const [phrase2T, setPhrase2T] = useState('')
@@ -189,7 +190,7 @@ const Home = () => {
     return (
         <div className='home' style={styleHOME}>
             <div className='filter'></div>
-            <img alt='background' src={bg} />
+            <img style={isLoad ? {} : {display: 'none' }} onLoad={() => setIsLoad(true)} alt='background' src={bg} />
             <div className='container-presentation' onMouseMove={handleRotationMove} onMouseOut={handleRotationDown} style={styles}>
                 <div><span className={phrase1T !== phrase1 ? 'border' : null}>{phrase1T}</span><span className='nom'>{nomT}</span></div>
                 {
