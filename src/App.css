@@ -187,7 +187,7 @@ button {
 }
 
 .home img {
-    transition: opacity 300ms;
+    transition: opacity 100ms;
 }
 
 .filter {
