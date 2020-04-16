@@ -1513,10 +1513,10 @@ textarea {
 }
 @media screen and (max-width: 380px) {
     .container-presentation span {
-        font-size: 0.6em
+        font-size: 12px
     }
     .container-presentation-perso span {
-        font-size: 0.5em
+        font-size: 12px
     }
     h1 {
         font-size: 4em !important;
@@ -1567,7 +1567,7 @@ textarea {
     }
 }
 
-@media screen and (max-height:650px){
+@media screen (min-width: 400) and (max-height:650px){
     .apropos .container-presentation-perso {
         height: auto;
     }
