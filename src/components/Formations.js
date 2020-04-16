@@ -128,7 +128,7 @@ export const Formations = () => {
         setTimeout(() => {
             setContenuRender(true)
             setFooterRender(true)
-        }, 300)
+        }, 400)
         return () => {
             setContenuRender(false)
             setFooterRender(false)
@@ -160,22 +160,24 @@ export const Formations = () => {
             {
                 contenuRender &&
                 <>
-                <div ref={ancre} className='container-contenu-formation'>
-                    <div className='projets-left'>
+                <div ref={ancre} className='container-contenu-perso'>
+                    <div className="wrapper-container-projets">
                         <Card lien="https://twitchlike.netlify.com/" direction='right' titre='TWITCH LIKE />' height={heightRef1} urlImg='https://i.goopics.net/lgExw.png'/>
-                        <Text height={height2} numText='text2' paragraphe={`Ce projet a été réalisé dans le cadre de la formation "React Hooks et Firebase (CRUD avec Firestore + Login)" du programme HARDCODERS de Anthony Welc. J'y ai appris a maîtriser les Hooks et à utiliser Firebase Authentification ainsi que Firestore. Ainsi que pleins de petites fonctionnalités bien utiles. Copier certaines fonctionnalités de Twitter m'a énormément fait progresser.`} compétences="React Hooks, Firebase Firestore, Firebase Authentification, Hooks personnalisés, Context Api, firebase méthodes read(), write(), remove(), date-fns, sanitize.css" />
-                        <Card lien="https://github.com/IlanAMG/OMDb-Movie-Search" direction='right' titre='OMDb Movie Search />' height={heightRef3} urlImg='https://i.goopics.net/brxOW.png'/>
-                        <Text height={height2} numText='text2' paragraphe={`Ce projet a été réalisé dans le cadre de la formation "React 16+  - Le Guide Complet (+ React Router 4 && Firebase)" par Anthony Welc sur Udemy. C'est un petit réseau social qui permet de partager des recettes de cuisine. Il m'a permit de mettre un pied dans Firebase et de gérer l'authentification ainsi que différentes méthodes JS pour la mise en page des recettes en tant qu'admin. (Ce projet n'est pas herbergé mais le lien Github est disponible)`} compétences="ReactJS, class component, JSON, Firebase, Firebase Authentification facebook, async await, fetch(), react-router-dom" />
-                    </div>
-
-                    <div className="separator"></div>
-
-                    <div className='projets-right'>
                         <Text height={height1} numText='text1' paragraphe={`Ce projet a été réalisé dans le cadre de la formation "Cloner Twitch avec React" par Enzo Ustariz sur Udemy. J'y ai appris a utiliser l'API de Twitch qui est très complète ainsi qu'à utiliser Axios.`}  compétences="React Hooks, Axios, React-router, :slug avec useParams, async await, utiliser l'api de twitch" />
+                    </div>
+                    <div className="wrapper-container-projets reverse">
+                        <Text height={height2} numText='text2' paragraphe={`Ce projet a été réalisé dans le cadre de la formation "React Hooks et Firebase (CRUD avec Firestore + Login)" du programme HARDCODERS de Anthony Welc. J'y ai appris a maîtriser les Hooks et à utiliser Firebase Authentification ainsi que Firestore. Ainsi que pleins de petites fonctionnalités bien utiles. Copier certaines fonctionnalités de Twitter m'a énormément fait progresser.`} compétences="React Hooks, Firebase Firestore, Firebase Authentification, Hooks personnalisés, Context Api, firebase méthodes read(), write(), remove(), date-fns, sanitize.css" />
                         <Card lien="https://twitterlike.netlify.com/" direction='left' titre={untilForTitleH5 + ' TWITTER LIKE'} height={heightRef2} urlImg='https://i.goopics.net/Xbqbd.png'/>
+                    </div>
+                    <div className="wrapper-container-projets">
+                        <Card lien="https://github.com/IlanAMG/OMDb-Movie-Search" direction='right' titre='OMDb Movie Search />' height={heightRef3} urlImg='https://i.goopics.net/brxOW.png'/>
                         <Text height={height3} numText='text3' paragraphe={`Ce projet a été réalisé dans le cadre de la formation "ReactJS Fullstack : Firebase Firestore & authentification" par Sandra L. sur Udemy. J'y ai appris a utiliser l'API OMDb Movie, gérer un système de recherche et de favoris. Ainsi que la création de compte, l'authentification, la gestion des erreurs, la vérification par mail et le système de reset de mot de passe avec Firebase. (Je n'ai pas hébergé ce projet mais le lien Github est disponible)`} compétences="React Hooks, Firestore, appel API omdb movie, Firebase Authentification, méthodes : write(), remove(), read(), signUp(), signIn(), signOut(), sendEmail(), resetPassword(), Promise, Fetch, .then .catch" />
+                    </div>
+                    <div className="wrapper-container-projets reverse">
+                        <Text height={height2} numText='text2' paragraphe={`Ce projet a été réalisé dans le cadre de la formation "React 16+  - Le Guide Complet (+ React Router 4 && Firebase)" par Anthony Welc sur Udemy. C'est un petit réseau social qui permet de partager des recettes de cuisine. Il m'a permit de mettre un pied dans Firebase et de gérer l'authentification ainsi que différentes méthodes JS pour la mise en page des recettes en tant qu'admin. (Ce projet n'est pas herbergé mais le lien Github est disponible)`} compétences="ReactJS, class component, JSON, Firebase, Firebase Authentification facebook, async await, fetch(), react-router-dom" />
                         <Card lien="https://github.com/IlanAMG/base-recettes-app" direction='left' titre={untilForTitleH5 + ' RÉSEAU SOCIAL : BOITE À RECETTE'} height={heightRef2} urlImg='https://i.goopics.net/OOq7w.png'/>
                     </div>
+                    <div className="separator"></div>
                 </div>
                 <div className='container-liste-formations'>
                     <h3>Toutes les formations :</h3>
@@ -197,38 +199,41 @@ export const Formations = () => {
                             <span>ReactJS Fullstack : Firebase Firestore et Authentification - <font>Sandra L</font></span>
                             <span>React Native pour débutants - <font>Robin Lebhar</font></span>
                         </div>
-                        <div className='wrapper-liste'>
-                            <h4>CHAÎNE YOUTUBE</h4>
-                            <span>codeSTACKr</span>
-                            <span>Le Designer du Web - Enzo Ustariz</span>
-                            <span>Dev Theory</span>
-                            <span>Développeur Libre</span>
-                            <span>Grafikart.fr</span>
-                            <span>getCodingKnowLedge</span>
-                            <span>Captain Dev</span>
-                            <span>Benjamin Code</span>
-                            <span>The Coding Train</span>
-                            <span>Les Teachers du Net</span>
-                            <span>Codeconcept</span>
-                            <span>Le wagon</span>
-                            <span>Javascript Mastery</span>
-                            <span>Mike / Codeur Nomade</span>
-                            <span>Antho Welc</span>
-                            <span>Lior CHAMLA</span>
-                            <span>FlexCode</span>
+                        <div className="container-wrapper-liste">
+                            <div className='wrapper-liste'>
+                                <h4>CHAÎNE YOUTUBE</h4>
+                                <span>codeSTACKr</span>
+                                <span>Le Designer du Web - Enzo Ustariz</span>
+                                <span>Dev Theory</span>
+                                <span>Développeur Libre</span>
+                                <span>Grafikart.fr</span>
+                                <span>getCodingKnowLedge</span>
+                                <span>Captain Dev</span>
+                                <span>Benjamin Code</span>
+                                <span>The Coding Train</span>
+                                <span>Les Teachers du Net</span>
+                                <span>Codeconcept</span>
+                                <span>Le wagon</span>
+                                <span>Javascript Mastery</span>
+                                <span>Mike / Codeur Nomade</span>
+                                <span>Antho Welc</span>
+                                <span>Lior CHAMLA</span>
+                                <span>FlexCode</span>
+                            </div>
+                            <div className='wrapper-liste'>
+                                <h4>AUTRES</h4>
+                                <span>Programme de Antho Welc : HARDCODERS (1 formation par Mois)</span>
+                                <span>FreeCodeCamp</span>
+                                <span>3W Academy</span>
+                                <span>OpenClassRoom</span>
+                                <span>MDN Web Doc</span>
+                                <span>StackOverflow</span>
+                                <span>Channels Discords</span>
+                                <span>Application Mobile : Mimo</span>
+                                <span>Application Mobile : Grasshopper</span>
+                            </div>
                         </div>
-                        <div className='wrapper-liste'>
-                            <h4>AUTRES</h4>
-                            <span>Programme de Antho Welc : HARDCODERS (1 formation par Mois)</span>
-                            <span>FreeCodeCamp</span>
-                            <span>3W Academy</span>
-                            <span>OpenClassRoom</span>
-                            <span>MDN Web Doc</span>
-                            <span>StackOverflow</span>
-                            <span>Channels Discords</span>
-                            <span>Application Mobile : Mimo</span>
-                            <span>Application Mobile : Grasshopper</span>
-                        </div>
+                       
                     </div>
                     <h3>Compétences acquises : </h3>
                     <p className='compétences'>HTML5, CSS3, Flexbox, CSS Grid, JAVASCRIPT ES7 et +, REACT JS, REACT Hooks, REACT Context, REACT Router, JSON, Firebase / Firestore, Firebase Authentification, CRUD, Firebase Storage, Fetch, Axios, API REST, Netlify hébergeur, Ant Design, EmailJS, Font Awesome, Bootstrap, Github, Github Desktop, + les bases de NodeJS, ExpressJS & MongoDB/Mongoose ainsi que pleins de librairies diverses et variées...</p>
