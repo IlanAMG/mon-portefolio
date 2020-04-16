@@ -80,8 +80,7 @@ button {
     overflow: hidden;
     height: 50vh;
     width: 100vw;
-    animation-name: openUp;
-    animation-duration: 1s;
+    top: -50%;
     transform: rotate(180deg);
 }
 
@@ -90,8 +89,8 @@ button {
     overflow: hidden;
     height: 50vh;
     width: 100vw;
-    animation-name: openDown;
     animation-duration: 1s;
+    bottom: -50%;
 }
 
 @keyframes open {
