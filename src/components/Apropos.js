@@ -127,10 +127,10 @@ export const Apropos = () => {
         }, [delay]);
       }
       
-      useInterval(() => moveElement(element1, direction1), 10)
-      useInterval(() => moveElement(element2, direction2), 10)
-      useInterval(() => moveElement(element3, direction3), 10)
-      useInterval(() => moveElement(element4, direction4), 10)
+      useInterval(() => moveElement(element1, direction1), 20)
+      useInterval(() => moveElement(element2, direction2), 20)
+      useInterval(() => moveElement(element3, direction3), 20)
+      useInterval(() => moveElement(element4, direction4), 20)
 
       const scrollToRef = (ref) => window.scrollTo({
         top: ref.current.offsetTop,

@@ -134,10 +134,10 @@ export const MenuNav = ({ isVisible, setStyles, styles, setIsVisible}) => {
         }, [delay]);
       }
       
-      useInterval(() => moveElement(element1, direction1), 10)
-      useInterval(() => moveElement(element2, direction2), 10)
-      useInterval(() => moveElement(element3, direction3), 10)
-      useInterval(() => moveElement(element4, direction4), 10)
+      useInterval(() => moveElement(element1, direction1), 20)
+      useInterval(() => moveElement(element2, direction2), 20)
+      useInterval(() => moveElement(element3, direction3), 20)
+      useInterval(() => moveElement(element4, direction4), 20)
 
     const handleHover = (e) => {
         const target1 = e.target.getAttribute('data-tag')
