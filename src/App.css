@@ -19,7 +19,13 @@ time, mark, audio, video {
   vertical-align: baseline;
   font-family: sans-serif;
   user-select: none;
+  cursor: none !important;
 }
+
+* {
+    cursor: none !important;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -46,13 +52,15 @@ table {
 	border-spacing: 0;
 }
 
-a {
+a  {
+    cursor: none !important;
     text-decoration: none;
     color: #ff006f;
 }
 
 button {
-    outline: none;
+    outline: none;  
+    cursor: none !important;
 }
 
 /* ///////////////////////////// */
@@ -60,10 +68,37 @@ button {
 /* ///////////////////////////// */
 
 .App {
+    cursor: none !important;
     width: 100%;
     position: relative;
     display: flex;
     background-image: url(./ASSETS/transition.jpg);
+}
+
+.curseur-perso {
+    position: absolute;
+    pointer-events: none;
+    width: 40px;
+    height: 40px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.curseur-perso::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 5px;
+    height: 5px;
+    background-color: #5be4ff;
+    border-radius: 50%;
+}
+.curseur-perso img {
+    height: 36px;
+    width: 40px;
 }
 
 
