@@ -1374,10 +1374,26 @@ textarea {
     .container-liens .liens {
         font-size: 3em;
     }
+    @keyframes openMenu {
+        from {
+            font-size: 1em
+        }
+        to {
+            font-size: 3em;
+        }
+    }
 }
 @media screen and (max-width: 260px) {
     .container-liens .liens {
         font-size: 2.3em;
+    }
+    @keyframes openMenu {
+        from {
+            font-size: 1em
+        }
+        to {
+            font-size: 2.3em;
+        }
     }
 }
 
@@ -1532,6 +1548,9 @@ textarea {
     .curseur-perso {
         display: none;
     }
+    h1 {
+        font-size: 4em !important;
+    }
 }
 
 /* RESPONSIVE MOBILE PAYSAGE */
@@ -1560,7 +1579,7 @@ textarea {
         height: 50%;
     }
     h1 {
-        font-size: 6em !important;
+        font-size: 6em;
     }
     .apropos .wrapper-btn-scroll-perso {
         height: 130px !important;
@@ -1587,6 +1606,14 @@ textarea {
 @media screen and (max-height:520px){
     .menu-nav .liens {
         font-size: 3.2em;
+    }
+    @keyframes openMenu {
+        from {
+            font-size: 1em
+        }
+        to {
+            font-size: 3.2em;
+        }
     }
     .menu-nav .container-liens {
         margin: 5px;
