@@ -81,7 +81,7 @@ button {
     height: 50vh;
     width: 100vw;
     animation-name: openUp;
-    animation-duration: 2s;
+    animation-duration: 1s;
     transform: rotate(180deg);
 }
 
@@ -91,7 +91,7 @@ button {
     height: 50vh;
     width: 100vw;
     animation-name: openDown;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 
 @keyframes open {
