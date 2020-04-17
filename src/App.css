@@ -624,7 +624,7 @@ button {
     width: 100%;
     height: 100%;
     position: absolute;
-    background: linear-gradient(-45deg, #0a2723d3,#04292ed3, #022c31d3, #004138d3);
+    background: linear-gradient(-45deg, #071b19d3,#042429d3, #011a1dd3, #01312ad3);
     background-size: 100% 100%;
     z-index: 1;
 }
@@ -679,9 +679,10 @@ button {
     right: 0px;
     top: 0px;
     padding: 20px;
-    font-family: 'Teko', sans-serif;
-    font-size: 10em;
-    color: #008a50d3;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 8em;
+    font-weight: 900 !important;
+    color: #53b88ed3;
     text-align: right;
 }
 .wrapper-btn-scroll-perso {
@@ -867,11 +868,13 @@ p {
     right: 0px;
     top: 0px;
     padding: 20px;
-    font-family: 'Teko', sans-serif;
-    font-size: 9em;
-    color: #430f6db9;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: 900 !important;
+    font-size: 8em;
+    color: #b178ce9c;
     text-align: right;
 }
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
 
 .container-liste-formations {
     width: 100%;
@@ -1415,6 +1418,10 @@ textarea {
     .container-presentation-perso .span-propos {
         margin-top: 0px !important;
     }
+    .container-presentation-perso span {
+        margin-top: 10vh;
+        font-size: 1.5em;
+    }
 }
 @media screen and (max-width: 920px) {
     .container-presentation span {
@@ -1521,10 +1528,10 @@ textarea {
 }
 @media screen and (max-width: 345px) {
     .container-presentation span {
-        font-size: 0.7em
+        font-size: 0.7em !important;
     }
     .container-presentation-perso span {
-        font-size: 0.7em
+        font-size: 0.7em !important;
     }
 }
 @media screen and (max-width: 380px) {
@@ -1579,7 +1586,7 @@ textarea {
         height: 50%;
     }
     h1 {
-        font-size: 6em;
+        font-size: 4em !important;
     }
     .apropos .wrapper-btn-scroll-perso {
         height: 130px !important;
