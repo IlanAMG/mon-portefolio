@@ -161,7 +161,7 @@ const Home = () => {
         }, [delay]);
     }
 
-    useInterval(play, randomSpeed(20, 70))
+    useInterval(play, randomSpeed(20, 40))
 
     useEffect(() => {
         setTimeout(() => {

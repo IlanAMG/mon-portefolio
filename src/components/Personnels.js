@@ -108,7 +108,7 @@ export const Personnels = () => {
         }, [delay]);
     }
     
-    useInterval(play, randomSpeed(20, 70))
+    useInterval(play, randomSpeed(20, 40))
     
     const scrollToRef = (ref) => window.scrollTo({
         top: ref.current.offsetTop,

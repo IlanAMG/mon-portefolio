@@ -99,7 +99,7 @@ export const Formations = () => {
         }, [delay]);
     }
     
-    useInterval(play, randomSpeed(20, 70))
+    useInterval(play, randomSpeed(20, 40))
 
     const resizeText = () => {
         if (heightRef1.current && heightRef2.current && heightRef3.current) {
