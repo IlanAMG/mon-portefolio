@@ -202,6 +202,9 @@ button {
 ::-webkit-scrollbar-corner {
     width: 0px;
 }
+::-webkit-scrollbar:horizontal {
+    display: none;
+}
 
 /* ///////////////////////////// */
 /* //////////// HOME ////////////// */
