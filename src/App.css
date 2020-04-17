@@ -1576,6 +1576,11 @@ textarea {
         font-size: 4em !important;
     }
 }
+@media (min-width:1040px) and (max-height:780px){
+    .apropos .wrapper-btn-scroll-perso {
+        height: 40px;
+    }
+}
 
 /* RESPONSIVE MOBILE PAYSAGE */
 
@@ -1601,9 +1606,6 @@ textarea {
     }
     .wrapper-input {
         height: 50%;
-    }
-    .apropos .wrapper-btn-scroll-perso {
-        height: 130px !important;
     }
 }
 
