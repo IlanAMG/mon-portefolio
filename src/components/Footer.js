@@ -32,7 +32,7 @@ export const Footer = () => {
         <div className='footer'>
             <div className='container-titre-footer'>
                 <h6>Voulez-vous <font>travailler</font> avec moi <font>?</font></h6>
-                <span>Écrivez en remplissant le formulaire ci-dessous ou sur <font><a href="mailto:ilanamzallag.dev@gmail.com">ilanamzallag.dev@gmail.com</a></font></span>
+                <span>Écrivez-moi en remplissant le formulaire ci-dessous ou sur <font><a href="mailto:ilanamzallag.dev@gmail.com">ilanamzallag.dev@gmail.com</a></font></span>
             </div>
             <form className='container-input-footer' onSubmit={sendEmail}>
                 <div className="wrapper-input">
