@@ -241,7 +241,7 @@ export const Formations = () => {
                        
                     </div>
                     <h3>Compétences acquises : </h3>
-                    <p className='compétences'>HTML5, CSS3, Flexbox, CSS Grid, JAVASCRIPT ES7 et +, REACT JS, REACT Hooks, REACT Context, REACT Router, JSON, Firebase / Firestore, Firebase Authentification, CRUD, Firebase Storage, Fetch, Axios, API REST, Netlify hébergeur, Ant Design, EmailJS, Font Awesome, Bootstrap, Github, Github Desktop, + les bases de NodeJS, ExpressJS & MongoDB/Mongoose ainsi que pleins de librairies diverses et variées...</p>
+                    <p className='compétences'>HTML5, CSS3, Flexbox, CSS Grid, Styled Component, JAVASCRIPT ES7 et +, REACT JS, REACT Hooks, usContext, useReducer,REACT Router, GatsbyJS, GraphQl, JSON, Firebase / Firestore, Firebase Authentification, CRUD, Meteor,Firebase Storage, Fetch, Axios, API REST, Netlify hébergeur, Netlify CMS, Heroku, Ant Design, EmailJS, Font Awesome, Bootstrap, Github, Github Desktop, + les bases de NodeJS, ExpressJS & MongoDB/Mongoose ainsi que pleins de librairies diverses et variées...</p>
                 </div> 
                 </>
             }
