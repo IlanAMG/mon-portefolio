@@ -161,6 +161,10 @@ export const Formations = () => {
                 contenuRender &&
                 <>
                 <div ref={ancre} className='container-contenu-perso'>
+                    <div className="wrapper-container-projets reverse">
+                        <Text height={height3} numText='text3' paragraphe={`Ce projet a été réalisé dans le cadre de la formation "React - Créer son propre WhatsApp Web" par Julien Kisoni. J'y ai appris à utiliser Meteor.js couplé à React et MongoDB en typescript. Plusieurs fonctionnalités ont était développé dont : authentification, chats en temps réel, système de notifications, envoyer des messages textes et des messages images et bien d'autres, je vous laisses découvrir cela.`} compétences="Meteor, withTracker, Meteor côté serveur, TypeScript, React Hooks, MongoDB, Styled-Component, date-fns, lodash, Meteor Session" />
+                        <Card lien="https://whatslike-app.herokuapp.com/" direction='left' titre={untilForTitleH5 + ' WHATSAPP LIKE'} height={heightRef3} urlImg='https://i.goopics.net/5LdOY.png'/>
+                    </div>
                     <div className="wrapper-container-projets">
                         <Card lien="https://twitchlike.netlify.com/" direction='right' titre='TWITCH LIKE />' height={heightRef1} urlImg='https://i.goopics.net/lgExw.png'/>
                         <Text height={height1} numText='text1' paragraphe={`Ce projet a été réalisé dans le cadre de la formation "Cloner Twitch avec React" par Enzo Ustariz sur Udemy. J'y ai appris a utiliser l'API de Twitch qui est très complète ainsi qu'à utiliser Axios.`}  compétences="React Hooks, Axios, React-router, :slug avec useParams, async await, utiliser l'api de twitch" />
@@ -196,6 +200,7 @@ export const Formations = () => {
                             <span>Javascript par la pratique - <font>Code Concept</font></span>
                             <span>Devenir Opérationnel rapidement en React - <font>Code Concept</font></span>
                             <span>Maîtriser React de A à Z : Créer son propre NETFLIX - <font>Julien Kisoni</font></span>
+                            <span>React - Créer son propre WhatsApp Web - <font>Julien Kisoni</font></span>
                             <span>ReactJS Fullstack : Firebase Firestore et Authentification - <font>Sandra L</font></span>
                             <span>React Native pour débutants - <font>Robin Lebhar</font></span>
                         </div>

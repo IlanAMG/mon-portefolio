@@ -794,6 +794,7 @@ button {
 .projet-card img {
     width: 100%;
     display: table-row;
+    border-radius: 6px;
 }
 
 .projet-card .spinner {
