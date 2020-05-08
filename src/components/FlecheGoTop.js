@@ -14,7 +14,7 @@ export default class FlecheGoTop extends Component {
           });
         return (
             <div>
-                <div><button onClick={() => this.handleGoTop()}id="cRetour" className="cInvisible" /></div>
+                <div><button onClick={() => this.handleGoTop()} id="cRetour" className="cInvisible" /></div>
             </div>
         )
     }

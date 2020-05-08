@@ -228,6 +228,14 @@ export const Formations = () => {
                             <div className='wrapper-liste'>
                                 <h4>AUTRES</h4>
                                 <span>Programme de Antho Welc : HARDCODERS (1 formation par Mois)</span>
+                                <span>Créer un blog avec Gatsby (+ Ant design et Netlify CMS)</span>
+                                <span>Gatsby PRO (notions avancées)</span>
+                                <span>JavaScript : le Guide Ultime</span>
+                                <span>JavaScript Avancé : ES6 PRO</span>
+                                <span>JavaScript Avancé : algorithmes</span>
+                                <span>Découverte de Styled Components</span>
+                                <span>Découverte de Git (indispensable)</span>
+                                <span>Découverte des Hooks React</span>
                                 <span>FreeCodeCamp</span>
                                 <span>3W Academy</span>
                                 <span>OpenClassRoom</span>
@@ -241,7 +249,7 @@ export const Formations = () => {
                        
                     </div>
                     <h3>Compétences acquises : </h3>
-                    <p className='compétences'>HTML5, CSS3, Flexbox, CSS Grid, Styled Components, JAVASCRIPT ES7 et +, REACT JS, REACT Hooks, useContext, useReducer, REACT Router, GatsbyJS, GraphQL, JSON, Firebase / Firestore, Firebase Authentification, CRUD, Meteor,Firebase Storage, Fetch, Axios, API REST, Netlify hébergeur, Netlify CMS, Heroku, Ant Design, EmailJS, Font Awesome, Bootstrap, Github, Github Desktop, lignes de commandes, + les bases de NodeJS, ExpressJS & MongoDB/Mongoose ainsi que pleins de librairies diverses et variées...</p>
+                    <p className='compétences'>HTML5, CSS3, Flexbox, CSS Grid, Styled Components, JAVASCRIPT ES6 / ES7 et +, REACT JS, REACT Hooks, useContext, useReducer, REACT Router, GatsbyJS, GraphQL, JSON, Firebase / Firestore, Firebase Authentification, CRUD, Meteor, Firebase Storage, Fetch, Axios, API REST, Netlify hébergeur, Netlify CMS, Heroku, Ant Design, EmailJS, Mailchimp, Zapier, Font Awesome, Bootstrap, Github, Github Desktop, lignes de commandes, + les bases de NodeJS, ExpressJS & MongoDB/Mongoose ainsi que pleins de librairies diverses et variées...</p>
                 </div> 
                 </>
             }
