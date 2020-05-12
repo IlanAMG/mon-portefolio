@@ -181,6 +181,10 @@ export const Personnels = () => {
             {
                 contenuRender &&
             <div ref={ancre} className='container-contenu-perso'>
+                    <div className="wrapper-container-projets reverse">
+                        <Text height={height1} numText='text1' paragraphe="Ce blog, qui n'est pas encore alimenté à ce jour, a été réalisé avec GatsbyJS + Netlify CMS. Cela m'a permit de mettre en pratique de nombreuses connaissances, tels que les requêtes GraphQl, newsletters, formulaire de contacts, thème clair/foncé, système de recherche, ainsi que plusieurs plugins Gatsby. J'ai apprécié utiliser ce générateur de site statique, en revanche j'utiliserai un autre Cms pour la deuxième version de ce blog." compétences="React, Gatsby.js, GraphQL, NetlifyCMS, Styled-Component, Antd Design, Mailchimp, netlify form, Zapier, markdown, Algolia, gatsby-plugin-catch-links, gatsby-remark-external-links, gatsby-remark-images, @raae/gatsby-remark-oembed, rehype-react"/>
+                        <Card lien="https://www.devtrotter.com/" direction='left' titre={untilForTitleH5 + ' BLOG DEVTROTTER'} height={heightRef1} urlImg='https://i.goopics.net/Z7LPd.png'/>
+                    </div>
                     <div className="wrapper-container-projets">
                         <Card lien="https://game-pacman.netlify.com/" direction='right' titre='MINI JEU : PAC-MAN />' height={heightRef1} urlImg='https://i.goopics.net/L2Z1L.png'/>
                         <Text height={height1} numText='text1' paragraphe="J'ai essayé de rester fidèle à l'authentique jeu d'arcade Pac-man Namco en réalisant ce jeu. J'ai recrée la map, le déplacement du pac-man ainsi que toutes les IA des fantômes. Chaque fantôme a sa propre personnalité et se déplacent tous différemments dans le labyrinthe. Le meilleur record est persisté dans une base de donnée, vous pouvez donc allez essayer de le battre !" compétences="React Hooks, Firebase write(), remove(), read(), méthodes .map(), async await, Math.sqrt, setTimeout, setInterval, affichage conditionnel, optimisation à l'aide de React.memo" />
