@@ -161,6 +161,10 @@ export const Formations = () => {
                 contenuRender &&
                 <>
                 <div ref={ancre} className='container-contenu-perso'>
+                    <div className="wrapper-container-projets">
+                        <Card lien="https://bebecoders-shop.netlify.app/" direction='right' titre='E-COMMERCE />' height={heightRef3} urlImg='https://i.goopics.net/9gv51.png'/>
+                        <Text height={height3} numText='text3' paragraphe={`Ce projet a été réalisé dans le cadre de la formation "Créer un E-Commerce Serverless (Snipcart, Gatsby et DatoCMS)" par Antho Welc. Le design n'est pas primordiale dans ce projet, j'y ai appris à utiliser DatoCMS avec Gatsby.js, ainsi que Snipcart pour le moyen de paiement et le panier d'achat.`}  compétences="React Hooks, GraphQL, Gatsby.js, DatoCMS, Snipcart, Hook Dato Cms pour le rebuild, Css grid" />
+                    </div>
                     <div className="wrapper-container-projets reverse">
                         <Text height={height3} numText='text3' paragraphe={`Ce projet a été réalisé dans le cadre de la formation "React - Créer son propre WhatsApp Web" par Julien Kisoni. J'y ai appris à utiliser Meteor.js couplé à React et MongoDB en typescript. Plusieurs fonctionnalités ont était développé dont : authentification, chats en temps réel, système de notifications, envoyer des messages textes et des messages images et bien d'autres, je vous laisses découvrir cela.`} compétences="Meteor, withTracker, Meteor côté serveur, TypeScript, React Hooks, MongoDB, Styled-Component, date-fns, lodash, Meteor Session" />
                         <Card lien="https://whatslike-app.herokuapp.com/" direction='left' titre={untilForTitleH5 + ' WHATSAPP LIKE'} height={heightRef3} urlImg='https://i.goopics.net/5LdOY.png'/>
@@ -228,6 +232,7 @@ export const Formations = () => {
                             <div className='wrapper-liste'>
                                 <h4>AUTRES</h4>
                                 <span>Programme de Antho Welc : HARDCODERS (1 formation par Mois)</span>
+                                <span>Créer un E-Commerce Serverless (Snipcart, Gatsby et DatoCMS)</span>
                                 <span>Créer un blog avec Gatsby (+ Ant design et Netlify CMS)</span>
                                 <span>Gatsby PRO (notions avancées)</span>
                                 <span>JavaScript : le Guide Ultime</span>
