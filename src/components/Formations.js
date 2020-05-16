@@ -33,7 +33,13 @@ export const Formations = () => {
     const scrollToRef = (ref) => window.scrollTo({
             top: ref.current.offsetTop,
             behavior: 'smooth'
-        }) 
+        })
+    
+        useEffect(() => {
+            window.scrollTo({
+                top: 0
+            })
+        }, []);
     
     const play = () => {
 

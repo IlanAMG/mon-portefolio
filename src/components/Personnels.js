@@ -66,6 +66,12 @@ export const Personnels = () => {
         } 
     }
 
+    useEffect(() => {
+        window.scrollTo({
+            top: 0
+        })
+    }, []);
+
     const handleRotationMove = e => {
         if (phrase2T === "Chaque projet m'apporte une nouvelle compétence.") {
             const xVal = e.clientX
